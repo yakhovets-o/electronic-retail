@@ -1,0 +1,22 @@
+[project]
+name = "electronic-retail"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Petrovich",email = "yahnovets_o@rocketdata.io"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django (==5.2.4)"
+]
+
+[tool.poetry]
+packages = [{include = "electronic_retail", from = "electronic_retail"}]
+
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
