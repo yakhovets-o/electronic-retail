@@ -3,7 +3,7 @@ name = "electronic-retail"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Petrovich",email = "yahnovets_o@rocketdata.io"}
+    {name = "yakhovets.o",email = "yakhovetso@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
