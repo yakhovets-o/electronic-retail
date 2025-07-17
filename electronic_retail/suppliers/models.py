@@ -1,14 +1,8 @@
 from django.db import models
 
-class Address(models.Model):
-    """Модель для хранения адресов.
 
-    Атрибуты:
-        country: страна
-        city: город
-        street: улица
-        house_number: номер дома
-    """
+class Address(models.Model):
+    """Stores physical addresses for suppliers"""
 
     country = models.CharField(max_length=100, verbose_name="Страна")
     city = models.CharField(max_length=100, verbose_name="Город")
